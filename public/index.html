@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clara - Quality Company</title>
+  <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="chat-container">
+    <div id="chat-header">
+            <i class="fa-regular fa-comment-dots"></i>
+
+      <span>Clara - Assistente Virtual</span>
+      <button id="fechar">✕</button>
+    </div>
+    <div id="chat-mensagens"></div>
+    <div id="chat-input">
+      <input type="text" id="mensagem" placeholder="Digite sua mensagem..." autocomplete="off">
+      <button id="enviar">➤</button>
+    </div>
+  </div>
+
+    <button id="botao-flutuante">
+      <i class="fa-regular fa-comment-dots"></i>
+    </button>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
